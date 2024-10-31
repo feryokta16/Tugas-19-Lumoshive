@@ -1,0 +1,26 @@
+.chat-message-cstm {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  animation: typing 4s steps(40, end);
+}
+.cstm {
+}
+
+@keyframes typing {
+  from {
+    height: 0;
+  }
+  to {
+    height: 100%;
+  }
+}
+
+.chat-message-cstm:nth-last-child(2) {
+  margin-bottom: 100px;
+}
+.rounded-cstm {
+  border-radius: 15px 15px 0 15px;
+}
+.rounded-ai {
+  border-radius: 15px 15px 15px 0;
+}
